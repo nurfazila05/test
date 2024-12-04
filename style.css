@@ -1,0 +1,35 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fef6e4; /* Soft cream background */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.name-container {
+    background-color: #d8e2dc; /* Pastel mint green box */
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.name-container:hover {
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
+.name-container h1 {
+    color: #ff6f61; /* Warm coral for text */
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.name-container p {
+    color: #6b705c; /* Muted olive for secondary text */
+    font-size: 1rem;
+    margin-top: 10px;
+    font-style: italic;
+}
